@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/testf.dir/test.c.o  -o testf 

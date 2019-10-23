@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Assar/CLionProjects/OS1/local_library.h
+fcntl.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/syscall.h
+-
+stdbool.h
+-
+
+/mnt/c/Users/Assar/CLionProjects/OS1/test.c
+fcntl.h
+-
+local_library.h
+/mnt/c/Users/Assar/CLionProjects/OS1/local_library.h
+
